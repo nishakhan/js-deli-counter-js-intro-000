@@ -16,7 +16,7 @@ function currentLine(deliLine) {
     return "The line is currently empty.";
   } else {
       return `The line is currently: 1. ${deliLine[0]}, 2. ${deliLine[1]}, 3. ${deliLine[2]}`;
-  /*  I really wanted to make a for loop out of this, with something along the lines of the following:
+  /*  I really wanted to make a for loop out of this with something along the lines of the following:
                 Under  else {
                 var callNames = "The line is currently: "
                   for (let i=0; i < deliLine.length; i++) {
