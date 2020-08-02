@@ -17,7 +17,7 @@ function currentLine(deliLine) {
   } else {
     var callNames = "The line is currently: "
       for (let i=0; i < deliLine.length; i++) {
-        return callNames+ i++ + ". " + deliLine[i]
+        return callNames+ ++i + ". " + deliLine[i]
       }
     }
 }
