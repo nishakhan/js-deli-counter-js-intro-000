@@ -20,3 +20,4 @@ function currentLine(deliLine) {
         return i++ + ". " + deliLine[i]
       }
     }
+}
